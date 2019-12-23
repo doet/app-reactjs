@@ -4,9 +4,11 @@ import './index.css';
 // import App from './App';
 import * as serviceWorker from './serviceWorker';
 // import HelloComponent from './component/HelloComponent';
-import StateFullComponet from './container/StateFullComponet';
+// import YoutubeComp from './component/YoutubeComp/YoutubeComp';
+// import StateFullComponet from './container/StateFullComponet';
+import Home from './container/Home/Home';
 
-ReactDOM.render(<StateFullComponet />, document.getElementById('root'));
+ReactDOM.render(<Home />, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
